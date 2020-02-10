@@ -21,7 +21,6 @@ echo "Hello world!";
 <?php
 foreach($list as $value){
     ?>
-    
     <tr>
         <td><?php echo $value['Title'];?></td>
         <td><?php echo $value['Author'];?></td>
