@@ -30,23 +30,23 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `tbl_book` (
   `BookID` int(9) NOT NULL DEFAULT 0,
-  `title` varchar(180) NOT NULL DEFAULT '',
-  `genre` varchar(180) NOT NULL DEFAULT '',
-  `author` varchar(180) NOT NULL DEFAULT '',
+  `Title` varchar(180) NOT NULL DEFAULT '',
+  `Genre` varchar(180) NOT NULL DEFAULT '',
+  `Author` varchar(180) NOT NULL DEFAULT '',
   `Date` varchar(180) NOT NULL DEFAULT '',
 
 
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
-INSERT INTO tbl_book (title, genre,author,Date)
+INSERT INTO tbl_book (Title, Genre,Author,Date)
 VALUES ('Percy Jackson:Lightning Thief', 'Fantasy', 'Rick Riordan', 'March 25 , 2007');
-INSERT INTO tbl_book (title, genre,author,Date)
+INSERT INTO tbl_book (Title, Genre,Author,Date)
 VALUES ('Percy Jackson:last Olympian', 'Fantasy', 'Rick Riordan', 'November 25 , 2008');
-INSERT INTO tbl_book (title, genre,author,Date)
+INSERT INTO tbl_book (Title, Genre,Author,Date)
 VALUES ('Percy Jackson:Battle of the Labyrinth', 'Fantasy', 'Rick Riordan' , 'March 25 , 2009');
-INSERT INTO tbl_book (title, genre,author,Date)
-VALUES ('Percy Jackson:Lightning Thief', 'Fantasy', 'Rick Riordan' , 'March 25 , 2011');
-INSERT INTO tbl_book (title, genre,author,Date)
+INSERT INTO tbl_book (Title, Genre,Author,Date)
+VALUES ('Percy Jackson:Chamber Of Wisdom', 'Fantasy', 'Rick Riordan' , 'March 25 , 2011');
+INSERT INTO tbl_book (Title, Genre,Author,Date)
 VALUES ('Blood Noir', 'Fantasy', 'Voltaire Von Tresser', 'October 13 , 2013');
 --
 -- Indexes for dumped tables
