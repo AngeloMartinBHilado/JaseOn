@@ -21,9 +21,9 @@ foreach($list as $value){
     ?>
     <tr>
         <td>1<?php echo $value['Title'];?></td>
-        <td><?php echo $value['Author'];?></td>
-        <td><?php echo $value['Genre'];?></td>
-        <td><?php echo $value['Date'];?></td>
+        <td>2<?php echo $value['Author'];?></td>
+        <td>3<?php echo $value['Genre'];?></td>
+        <td>4<?php echo $value['Date'];?></td>
     </tr>
 <?php
 }
