@@ -2,7 +2,7 @@
 $json = file_get_contents('https://json-anj.herokuapp.com//json-1.php');
 
 $data = json_decode($json,true);
-$list = $data['articles'];
+$list = $data['books'];
 //$list = $data['pets'][1];
 
 ?>
