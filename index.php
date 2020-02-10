@@ -20,10 +20,10 @@ $list = $data['books'];
 foreach($list as $value){
     ?>
     <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td>4</td>
+        <td><?php echo $value['Title'];?></td>
+        <td><?php echo $value['Genre'];?></td>
+        <td><?php echo $value['Author'];?></td>
+        <td><?php echo $value['Date'];?></td>
     </tr>
 <?php
 }
