@@ -8,7 +8,9 @@ $list = $data['books'];
 ?>
 
 <h1>Books</h1>
-
+<?php
+echo "Hello world!";
+?>
 <table border="1px">
     <tr class="head">
         <td>Title</td>
@@ -19,7 +21,7 @@ $list = $data['books'];
 <?php
 foreach($list as $value){
     ?>
-    <?php echo " Hello World"?>
+    
     <tr>
         <td><?php echo $value['Title'];?></td>
         <td><?php echo $value['Author'];?></td>
