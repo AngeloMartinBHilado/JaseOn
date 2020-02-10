@@ -11,7 +11,7 @@ class Stocks{
 	}
 	
 	public function get_stocks(){
-		$sql = "SELECT * FROM tbl_stocks";
+		$sql = "SELECT * FROM tbl_book";
 		$result = mysqli_query($this->db,$sql);
 		while($row = mysqli_fetch_assoc($result)){
 			$list[] = $row;
