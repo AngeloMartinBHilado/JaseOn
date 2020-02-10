@@ -17,6 +17,9 @@ class Stocks{
 			$list[] = $row;
 		}
 		return $list;
+		<?php
+echo "Hello world!";
+?>
 	}
 	
 }
