@@ -10,7 +10,7 @@ class Stocks{
 		}
 	}
 	
-	public function get_Books(){
+	public function get_book(){
 		$sql = "SELECT * FROM tbl_book";
 		$result = mysqli_query($this->db,$sql);
 		while($row = mysqli_fetch_assoc($result)){
