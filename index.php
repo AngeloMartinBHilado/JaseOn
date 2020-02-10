@@ -8,9 +8,7 @@ $list = $data['books'];
 ?>
 
 <h1>Books</h1>
-<?php
-echo "Hello world!";
-?>
+
 <table border="1px">
     <tr class="head">
         <td>Title</td>
