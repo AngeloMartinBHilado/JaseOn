@@ -1,5 +1,5 @@
 <?php
-$json = file_get_contents('https://json-anj.herokuapp.com/json-1.php');
+$json = file_get_contents('https://json-anj.herokuapp.com/json.php');
 
 $data = json_decode($json,true);
 $list = $data['book'];
